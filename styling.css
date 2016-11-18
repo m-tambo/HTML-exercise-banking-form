@@ -1,0 +1,21 @@
+/****** Body ******/
+
+body {
+	font-size: 1.3em;
+	font-family: "Khula", sans-serif;
+	margin: 0;
+}
+
+/****** Header ******/
+
+header {
+	background-color: #bec082;
+	font-size: 3em;
+	text-align: center;
+	margin: 0 0 20px 0;
+	padding: 2% 0 3% 0;
+}
+	
+/****** Form styling ******/
+
+
