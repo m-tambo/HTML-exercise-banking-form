@@ -12,77 +12,82 @@
     <h1>General Loan Application</h1>
   </header>
 
-  <form>
-    <div>  
-    	First Name: <input type="text" name="firstName">
-      Middle Initial: <input type="text" name="initial">
-      Last Name: <input type="text" name="lastName"><br>
-    </div>
-    <div>
-      Street Address: <input type="text" name="streetAddress"><br>
-      City: <input type="text" name="city">
-      State: <input type="text" name="state">
-      Zip Code <input type="text" name="zipCode"><br>
-    </div>
-    <div>
-      Occupation: <input type="text" name="occupation"><br>
-      Employer: <input type="text" name="emplyoer"><br>
-      Employer address: <input type="text" name="employerAdd"><br>
-    </div>
-    <div>
-      Type of loan: <br>
-      	<input type="checkbox" name="commercial">Commercial<br>
-      	<input type="checkbox" name="realEstate">Real Estate<br>
-      	<input type="checkbox" name="Personal">Personal<br>
-      	<input type="checkbox" name="Mortgage">Mortgage<br>
-      Requested loan amount: <input type="text" name="loanRequest"><br>
-      Length of loan: <br>
-      	<input type="radio" name="fiveYear">5 Year<br>
-      	<input type="radio" name="fifteenYear">15 Year<br>
-      	<input type="radio" name="thirtyYear">30 Year<br>
-    </div>
-    <div>
-      Borrower special conditions:<br>
-      	<input type="checkbox" name="downPayment">I have a down payment<br>
-      	<input type="checkbox" name="outState">Out-of-state<br>
-      	<input type="checkbox" name="married">Married<br>
-      	<input type="checkbox" name="coSigner">I have a co-signer<br>
-      Additional Comments: <input type="text" name="comments"><br>
-    </div>
-    <div>
-      Email address: <input type="email" name="emailAdd"><br>
-      Cell Number: <input type="text" name="cellNum"><br>
-      LinkedIn URL: <input type="url" name="linkedInUrl"><br>
-    </div>
-  </form>
+  <div class="formStyle">
+    <form>
+      <div>  
+      	First Name: <input type="text" name="firstName">
+        Middle Initial: <input type="text" name="initial">
+        Last Name: <input type="text" name="lastName"><br>
+        Street Address: <input type="text" name="streetAddress"><br>
+        City: <input type="text" name="city">
+        State: <input type="text" name="state">
+        Zip Code <input type="text" name="zipCode"><br>
+      </div>
+      <hr>
+      <div>
+        Occupation: <input type="text" name="occupation"><br>
+        Employer: <input type="text" name="emplyoer"><br>
+        Employer address: <input type="text" name="employerAdd"><br>
+      </div>
+      <hr>
+      <div>
+        Type of loan: <br>
+        	<input type="checkbox" name="commercial">Commercial<br>
+        	<input type="checkbox" name="realEstate">Real Estate<br>
+        	<input type="checkbox" name="Personal">Personal<br>
+        	<input type="checkbox" name="Mortgage">Mortgage<br>
+        Requested loan amount: <input type="text" name="loanRequest"><br>
+        Length of loan: <br>
+        	<input type="radio" name="fiveYear">5 Year<br>
+        	<input type="radio" name="fifteenYear">15 Year<br>
+        	<input type="radio" name="thirtyYear">30 Year<br>
+      </div>
+      <hr>
+      <div>
+        Borrower special conditions:<br>
+        	<input type="checkbox" name="downPayment">I have a down payment<br>
+        	<input type="checkbox" name="outState">Out-of-state<br>
+        	<input type="checkbox" name="married">Married<br>
+        	<input type="checkbox" name="coSigner">I have a co-signer<br>
+        Additional Comments: <input type="text" name="comments"><br>
+      </div>
+      <hr>
+      <div>
+        Email address: <input type="email" name="emailAdd"><br>
+        Cell Number: <input type="text" name="cellNum"><br>
+        LinkedIn URL: <input type="url" name="linkedInUrl"><br>
+      </div>
+    </form>
 
+      	<!--  Is this another way to do it?
 
+      	<label for="firstName">First Name</label>
+       	<input type="text">
 
-  	<!--  Is this another way to do it?
+       	<label for="initial">Middle initial</label>
+       	<input type="text">
 
-  	<label for="firstName">First Name</label>
-   	<input type="text">
+       	<label for="lastName">Last Name</label>
+       	<input type="text"><br>
 
-   	<label for="initial">Middle initial</label>
-   	<input type="text">
+       	<label for="streetAddress">Street Address</label>
+       	<input type="text"><br>
 
-   	<label for="lastName">Last Name</label>
-   	<input type="text"><br>
+       	<label for="city">City</label>
+       	<input type="text">
 
-   	<label for="streetAddress">Street Address</label>
-   	<input type="text"><br>
+       	<label for="state">State</label>
+       	<input type="text">
 
-   	<label for="city">City</label>
-   	<input type="text">
+       	<label for="zipCode">Zip Code</label>
+       	<input type="text">
 
-   	<label for="state">State</label>
-   	<input type="text">
-
-   	<label for="zipCode">Zip Code</label>
-   	<input type="text">
-
-  -->
-
-
+        -->
+  </div>
+        
+  <footer>
+    <h6>Prescott Financial</h6>
+    <h6>1234 Main, Springfield Missouri</h6>
+  </footer>
 </body>
 </html>
